@@ -55,5 +55,8 @@ subprojects {
         testLogging {
             exceptionFormat = 'full'
         }
+        test {
+            exclude '**/*support*'
+        }
     }
 }

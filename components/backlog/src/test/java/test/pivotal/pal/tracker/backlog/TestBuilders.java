@@ -4,12 +4,14 @@ import io.pivotal.pal.tracker.backlog.StoryForm;
 import io.pivotal.pal.tracker.backlog.StoryInfo;
 import io.pivotal.pal.tracker.backlog.data.StoryFields;
 import io.pivotal.pal.tracker.backlog.data.StoryRecord;
+import org.junit.Ignore;
 
 import static io.pivotal.pal.tracker.backlog.StoryForm.storyFormBuilder;
 import static io.pivotal.pal.tracker.backlog.StoryInfo.storyInfoBuilder;
 import static io.pivotal.pal.tracker.backlog.data.StoryFields.storyFieldsBuilder;
 import static io.pivotal.pal.tracker.backlog.data.StoryRecord.storyRecordBuilder;
 
+@Ignore
 public class TestBuilders {
 
     public static StoryRecord.Builder testStoryRecordBuilder() {

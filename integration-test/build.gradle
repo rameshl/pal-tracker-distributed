@@ -8,3 +8,7 @@ test.dependsOn ":applications:allocations-server:assemble"
 test.dependsOn ":applications:backlog-server:assemble"
 test.dependsOn ":applications:registration-server:assemble"
 test.dependsOn ":applications:timesheets-server:assemble"
+
+test {
+    exclude '**/*support*'
+}

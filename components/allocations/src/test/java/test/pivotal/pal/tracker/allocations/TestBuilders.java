@@ -4,6 +4,7 @@ import io.pivotal.pal.tracker.allocations.AllocationForm;
 import io.pivotal.pal.tracker.allocations.AllocationInfo;
 import io.pivotal.pal.tracker.allocations.data.AllocationFields;
 import io.pivotal.pal.tracker.allocations.data.AllocationRecord;
+import org.junit.Ignore;
 
 import java.time.LocalDate;
 
@@ -12,6 +13,7 @@ import static io.pivotal.pal.tracker.allocations.AllocationInfo.allocationInfoBu
 import static io.pivotal.pal.tracker.allocations.data.AllocationFields.allocationFieldsBuilder;
 import static io.pivotal.pal.tracker.allocations.data.AllocationRecord.allocationRecordBuilder;
 
+@Ignore
 public class TestBuilders {
 
     public static AllocationRecord.Builder testAllocationRecordBuilder() {
