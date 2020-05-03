@@ -4,6 +4,7 @@ import io.pivotal.pal.tracker.timesheets.TimeEntryForm;
 import io.pivotal.pal.tracker.timesheets.TimeEntryInfo;
 import io.pivotal.pal.tracker.timesheets.data.TimeEntryFields;
 import io.pivotal.pal.tracker.timesheets.data.TimeEntryRecord;
+import org.junit.Ignore;
 
 import java.time.LocalDate;
 
@@ -12,6 +13,7 @@ import static io.pivotal.pal.tracker.timesheets.TimeEntryInfo.timeEntryInfoBuild
 import static io.pivotal.pal.tracker.timesheets.data.TimeEntryFields.timeEntryFieldsBuilder;
 import static io.pivotal.pal.tracker.timesheets.data.TimeEntryRecord.timeEntryRecordBuilder;
 
+@Ignore
 public class TestBuilders {
 
     public static TimeEntryRecord.Builder testTimeEntryRecordBuilder() {

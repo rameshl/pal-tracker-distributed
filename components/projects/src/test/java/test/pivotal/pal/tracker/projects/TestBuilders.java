@@ -4,12 +4,14 @@ import io.pivotal.pal.tracker.projects.ProjectForm;
 import io.pivotal.pal.tracker.projects.ProjectInfo;
 import io.pivotal.pal.tracker.projects.data.ProjectFields;
 import io.pivotal.pal.tracker.projects.data.ProjectRecord;
+import org.junit.Ignore;
 
 import static io.pivotal.pal.tracker.projects.ProjectForm.projectFormBuilder;
 import static io.pivotal.pal.tracker.projects.ProjectInfo.projectInfoBuilder;
 import static io.pivotal.pal.tracker.projects.data.ProjectFields.projectFieldsBuilder;
 import static io.pivotal.pal.tracker.projects.data.ProjectRecord.projectRecordBuilder;
 
+@Ignore
 public class TestBuilders {
 
     public static ProjectRecord.Builder testProjectRecordBuilder() {
